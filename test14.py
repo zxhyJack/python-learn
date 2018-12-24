@@ -8,5 +8,5 @@ prompt = '\nTell me something, and I will repeat it back to you:\nEnter "exit" t
 message = input(prompt)
 while message != 'exit':
   message = input(prompt)
-  if message != 'exit'
-  print(message)
+  if message != 'exit':
+    print(message)
