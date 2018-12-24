@@ -10,3 +10,4 @@ while message != 'exit':
   message = input(prompt)
   if message != 'exit':
     print(message)
+    
