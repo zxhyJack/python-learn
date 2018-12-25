@@ -101,6 +101,7 @@ nums = [1,2,3,4,5]
 for num in nums:
   print(num)
 
+# 九九乘法表
 for i in range(1,10):
   for j in range(1,i+1):
     print(str(i) + '*' + str(j) + '=' + str(i*j) + '\t', end='')
