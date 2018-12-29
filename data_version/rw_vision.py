@@ -19,4 +19,7 @@ plt.scatter(rw1.x_values[-1], rw1.y_values[-1],
 # 隐藏坐标轴
 plt.axes().get_xaxis().set_visible(False)
 plt.axes().get_yaxis().set_visible(False)
+
+# plt.figure(figsize=(10, 6))
+# plt.figure(dpi=128, figsize=(10, 6))
 plt.show()
