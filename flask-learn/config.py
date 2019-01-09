@@ -16,4 +16,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['17602200367@163.com']
 
-
+    LANGUAGE = ['zh', 'en']
